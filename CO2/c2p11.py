@@ -1,0 +1,11 @@
+area_sqr=lambda h:h*h
+area_rct=lambda x,y:x*y
+area_tri=lambda a,b:a*b/2
+h=int(input('Enter the side of the square :'))
+print('Area of square = ',area_sqr(h))
+x=int(input('Enter one side of the rectangle :'))
+y=int(input('Enter another side of the rectangle :'))
+print('Area of the rectangle = ',area_rct(x,y))
+b=int(input('Enter the height of the triangle :'))
+a=int(input('Enter the base of the triangle :'))
+print('The area of the triangle = ',area_tri(a,b))
